@@ -1,0 +1,28 @@
+# Detalles del proyecto
+
+Generador de Clases en video para Preu AI
+
+Preu AI es un preuniversitario virtual que ayuda a los estudiantes
+a prepararse para la PAES, mediante ensayos personalizados y clases grabadas.
+
+El propósito del proyecto del generador de clases de video, es poder tener un workflow
+que en base a un prompt, se pueda generar un guion de video, la voz del video, y la animación
+del video en manim en base al guión.
+
+El workflow debe seguir los siguientes pasos:
+
+1. Generar un guión en base a la prompt
+2. Modificar el guión, agregandole las animaciones que se utilizaran
+3. Generar la voz del video en base al guión
+4. Generar el código de la animación en Python con la librería de manim, en base al guión y las animaciones.
+5. Crear la animación, ejecutando el código de la librería de manim.
+
+
+
+# Reglas de código
+
+1. Todo el código debe ser modular, para que sea fácil de mantener y modificar.
+2. No debe haber acoplamiento entre los archivos, cada archivo debe tener su responsabilidad y ser independiente.
+3. Debes utilizar el patrón de Chain of Responsibility para la generación del guión, la voz y la animación.
+
+
